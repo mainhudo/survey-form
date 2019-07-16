@@ -1,0 +1,80 @@
+form{
+  background-color: #E6E6FA;
+  font-size: 16px;
+  font: Bookman;
+  display:grid;
+  row-gap: 1px;
+  font: 13px "Ubuntu", "Lucida Grande", sans-serif;
+  text-align: left;
+  width:700px;
+  max-width:8.3in;
+  margin:10px auto;
+  padding: 20px 12px 10px 20px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  font: 13px "Ubuntu", "Lucida Grande", sans-serif;
+   
+  
+}
+
+#description{
+  font: 20px "Ubuntu", "Lucida Grande", sans-serif;
+}
+
+#title{
+  
+  text-align: center;
+ font: 30px "Ubuntu", "Lucida Grande", sans-serif;
+}
+
+input[type=text],
+input[type=email],
+input[type=number],
+ select{
+    width: 200px;
+   height: 25px;
+    padding: 10px;
+    margin: 4px 5px;;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    vertical-align: baseline;
+}
+
+#textarea{
+  display:grid;
+  margin-top: 1em;;
+}
+
+#email-label , #number-label, #option1, fieldset, #submit, #dropdown{
+  margin-top: 1em;;
+  
+}
+
+
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=number]:focus,
+ select:focus,
+ textarea:focus {
+    box-shadow: 0 0 8px #88D5E9;
+    border: 1px solid #88D5E9;
+}   
+textarea{
+width: 250px;
+height: 100px;
+}
+
+#submit{
+background: #FF8C00;
+color: white;
+width: 95px;
+height: 29px;
+cursor: pointer;
+border: none;
+font-size: 15px;
+border-radius: 10px;
+margin: 20px;
+padding-bottom: auto;
+}
