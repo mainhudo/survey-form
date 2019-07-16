@@ -1,0 +1,49 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<h1 id = "title"> CONTACT ME</h1>
+<form action="" id="survey-form">
+    <p id = "description"> Let me know how you feel </p>
+  
+  <label id="name-label">Full name <span class="required">*</span></label><br>
+   <input type="text" id="name" name="name-label" placeholder="First and Last Name" required>
+
+  
+   <label id="email-label">Contact Email <span class="required">*</span></label><p id="description">Please provide a valid email, in case I need to contact you by email.</p>
+   
+  <input type="email" id="email" name="email-label" placeholder="Enter your email" required>
+   <label id="number-label">Age <span class="required">*</span></label><br>
+  
+  
+   <input id="number" type="number"size="6" name="age" min="18" max="100" value="" placeholder="Age" required><br>
+  
+   What is your gender? <select name="" id="dropdown">
+  <option value="" disabled selected>Select an option</option>
+  <option value="">Female</option>
+  <option value="">Male</option>
+  <option value="">Prefer not to say</option>
+  <option value="">Other</option>
+  </select>
+ <br> Which startup field has the most potential now? </br>
+ <label for="option1"> <input type="radio" name="option" id="option1" value = "edtech" >EdTech</label>
+  <label for="option2"><input type="radio" name="option" id="option2" value =" AR">AR/VR</label>
+  <label for="option3"><input type="radio" name="option" id="option3" value="KR">FinTech</label>
+  <label for="option3"><input type="radio" name="option" id="option3" value="KR">HealthTech</label>
+  <label for="option3"><input type="radio" name="option" id="option3" value="KR">AdTech</label>
+  <br>
+  Just curious. What is your favorite cuisine out of these?
+(Check all that apply): </br>
+<fieldset>
+  <label for="check"><input type="checkbox" id="check" value="Vietnamese">Vietnamese</label>
+  <label for="check1"><input type="checkbox" id="check1" value="Japanese">Japanese</label>
+  <label for="check2"><input type="checkbox" id="check2" value="Thai">Thai</label>
+  <label for="check3"><input type="checkbox" id="check3" value="Greek">Greek</label>
+  <label for="check4"><input type="checkbox"id="check4" value="Mexican">Mexican</label>
+  <label for="check5"><input type="checkbox"id="check5" value="Korean">Korean</label>
+  <label for="check6"><input type="checkbox"id="check6" value="Italian">Italian</label>
+  <label for="check7"><input type="checkbox"id="check7"value="French">French</label>
+  <label for="check8"><input type="checkbox"id="check8" value="Ethiopian">Ethiopian</label>
+  <label for="check9"><input type="checkbox"id="check9" value="Chinese">Chinese</label>
+</fieldset>
+  <p>
+   <label for="textarea"> Comments or Suggestions for the improvement of this website?<textarea name="area" id="textarea"  placeholder=" Enter your comment here.."></textarea></label>
+    <button id="submit">Submit</button>
+</form>
